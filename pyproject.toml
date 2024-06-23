@@ -1,16 +1,18 @@
 [tool.poetry]
-name = "har"
+name = "har-transformer"
 version = "0.1.0"
 description = ""
 authors = ["Shrihari-Nair <shriharinair@htic.iitm.ac.in>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-numpy = "^2.0.0"
+python = ">=3.9,<3.11"
+tensorflow-io-gcs-filesystem = "0.27.0"
+numpy = ">=1.23.5,<2.0.0"
+tensorflow = "^2.16.1"
+ipykernel = "^6.29.4"
 pandas = "^2.2.2"
 matplotlib = "^3.9.0"
-ipykernel = "^6.29.4"
 
 
 [build-system]
